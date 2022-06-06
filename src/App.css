@@ -6,6 +6,14 @@
   height: 40vmin;
   pointer-events: none;
 }
+.intro-img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.intro-celda {
+  vertical-align: middle;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
