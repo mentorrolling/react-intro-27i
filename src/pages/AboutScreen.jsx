@@ -6,7 +6,6 @@ const AboutScreen = () => {
       <div className="row">
         <div className="col">
           <h1>About Screen</h1>
-          <hr />
         </div>
       </div>
     </div>
