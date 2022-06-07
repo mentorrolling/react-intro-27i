@@ -1,4 +1,4 @@
-export const data = [
+const data = [
   {
     id: 1,
     email: "george.bluth@reqres.in",
@@ -42,3 +42,4 @@ export const data = [
     avatar: "https://reqres.in/img/faces/6-image.jpg",
   },
 ];
+export default data;
