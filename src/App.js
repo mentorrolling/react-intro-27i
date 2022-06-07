@@ -1,14 +1,18 @@
+import { BrowserRouter } from "react-router-dom";
+import RoutesApp from "./routes/RoutesApp";
+import Navbar from "./components/Navbar";
+
 import "./App.css";
-import IntroApp from "./components/IntroApp";
+// import IntroApp from "./components/IntroApp";
 
 function App() {
-  const usuario = {
-    id: 1,
-    username: "alvaro2022",
-    pass: "1234win",
-  };
+  // const usuario = {
+  //   id: 1,
+  //   username: "alvaro2022",
+  //   pass: "1234win",
+  // };
 
-  const roles = ["Admin", "User", "Developer"];
+  // const roles = ["Admin", "User", "Developer"];
 
   /*
   props={
@@ -25,7 +29,11 @@ function App() {
     <div className="App">
       <h1>React Basic</h1>
       <hr />
-      <IntroApp usuario={usuario} roles={roles} />
+      {/* <IntroApp usuario={usuario} roles={roles} /> */}
+      <BrowserRouter>
+        <Navbar />
+        <RoutesApp />
+      </BrowserRouter>
     </div>
   );
 }
