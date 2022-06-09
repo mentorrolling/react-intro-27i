@@ -1,4 +1,5 @@
 import React from "react";
+import IntroApp from "../components/IntroApp";
 
 const HomeScreen = () => {
   return (
@@ -9,6 +10,7 @@ const HomeScreen = () => {
           <hr />
         </div>
       </div>
+      <IntroApp />
     </div>
   );
 };

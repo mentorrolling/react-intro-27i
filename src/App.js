@@ -26,7 +26,7 @@ function App() {
   */
 
   return (
-    <div className="App">
+    <div>
       <h1>React Basic</h1>
       <hr />
       {/* <IntroApp usuario={usuario} roles={roles} /> */}
